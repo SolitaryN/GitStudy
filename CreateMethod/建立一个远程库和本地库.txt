@@ -1,0 +1,12 @@
+第一步、到指定文件夹中用git init 初始化一个本地库
+
+第二步、用"git config --global user.name "your name"" 和
+“git config --global user.email "your email"”,来初始化你的name和email。
+（因为每次提交都需要知道name、email）
+
+第三步、用“ssh-keygen -t rsa -C "youremail"”(C要大写)来获取ssh密钥，用来连接GitHub的仓库。然后在GitHub中添加ssh钥匙。在用户里面会有一个名称为.ssh的文件夹，把它里面的id_rsa.pub文件内容拷贝下来添加ssh钥匙。
+
+第四步、用“git remote add origin git@SolitaryN/learngit.git”去关联远程库。添加后，远程库的名字就是origin，这是Git默认的叫法，也可以改成别的，但是origin这个名字一看就知道是远程库。
+
+第五步、关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
+不用在远端库创建文件README.MD也可以。

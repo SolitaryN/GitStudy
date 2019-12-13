@@ -1,0 +1,3 @@
+找到该项目的地址，然后打开GIt Bash命令行窗口，
+输入命令$ git clone http://github.com/myy7362/learngit
+注意git clone 后面加的是你刚复制的地址。
