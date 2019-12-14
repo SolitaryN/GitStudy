@@ -1,0 +1,5 @@
+如果在文件夹中把文件给删除了后
+1、先同步本地库中的文件。
+	使用git add . 然后git commit -m "delete"
+2、然后同步远程库
+	使用git push就好
