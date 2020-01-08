@@ -1,4 +1,4 @@
-1、（先进入项目文件夹）通过命令 git init 把这个目录变成git可以管理的仓库
+﻿1、（先进入项目文件夹）通过命令 git init 把这个目录变成git可以管理的仓库
 
 git init
 
@@ -34,13 +34,10 @@ git查看远程仓库地址命令
 git remote -v
 
 
- 
-
 如果想要修改远程仓库地址：
 
 $ git remote set-url origin git@github.com:mkl34367803/WebAjax.git
 
- 
 
 然后再push：
 
