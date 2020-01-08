@@ -1,0 +1,5 @@
+重命名文件的dos命令
+rename 或者 ren
+语法:	ren oldName.txt	  newName.txt
+	rename oldName.txt   newName.txt
+
